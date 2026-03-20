@@ -1,0 +1,25 @@
+[Level-2]
+
+   "HELLO": "Hello there! I am using an AI assistant.",
+    "YES": "Yes, I agree.",
+    "HELP": "Excuse me, I need assistance please.",
+    "THANKYOU": "Thank you very much.",
+    "POINT": "I would like that item, please.",
+    "THUMBSUP": "I am doing good, everything is okay."
+
+[Level-3]
+
+    ("POINT", "YES"): "Yes, that is exactly the one I want.",
+    ("POINT", "HELP"): "I need some help with this specific item.",
+    ("POINT", "THANKYOU"): "Thank you, I will take this one.",
+    
+    ("HELLO", "HELP"): "Hello, this is an emergency! Please help me.",
+    ("HELLO", "THUMBSUP"): "Hello there, I am doing very well today.",
+    ("HELLO", "POINT"): "Hello, could you show me that item please?",
+    
+    ("HELP", "YES"): "Yes, I definitely need some assistance.",
+    ("HELP", "POINT"): "Please help me move or reach that.",
+    ("HELP", "THANKYOU"): "Thank you for coming to help me.",
+    
+    ("THUMBSUP", "YES"): "Yes, everything is absolutely perfect.",
+    ("THANKYOU", "THUMBSUP"): "Thank you, I am doing great now."
